@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-import numpy as np
+"""This module provides a function to transpose a 2D matrix."""
 
 def np_transpose(matrix):
-    return matrix.transpose()
+    """Returns the transpose of a 2D matrix."""
+    return [list(row) for row in zip(*matrix)]
