@@ -64,3 +64,4 @@ class Poisson:
             cumulative_prob += self.pmf(i)
 
         return cumulative_prob
+    
