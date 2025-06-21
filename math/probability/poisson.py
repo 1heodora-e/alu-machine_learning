@@ -56,3 +56,4 @@ class Poisson:
                                        self.lambtha) / self.factorial(k)
             return p
         return sum([p(k) for k in range(0, k+1)])
+    
